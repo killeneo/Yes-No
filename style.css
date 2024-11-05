@@ -1,0 +1,73 @@
+*{
+    font-family: cursive;
+}
+.btn{
+    padding: 20px 50px;
+    background-color: red;
+    border: none;
+    margin: 100px;
+    color: white;
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: #ED8D8D;
+}
+.red{
+    float: right;
+    background-color: red;
+    margin: 1vw;
+}
+.red:hover{
+    background-color: #ED8D8D;
+}
+.green{
+    float: right;
+    background-color: green;
+    margin: 1vw;
+}
+.green:hover{
+    background-color: greenyellow;
+}
+.bgMod{
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.contMod{
+    width: 30vw;
+    height: 30vh;
+    position: fixed;
+    top: 35vh;
+    left: 35vw;
+    background-color: white;
+    border-radius: 32px;
+}
+.btnCont{
+    position: absolute;
+    bottom: 1vh;
+    right: 1vw;
+}
+.textMod{
+    position: absolute;
+    font-weight: 800;
+    font-size: 24px;
+    top: 1vh;
+    left: 1vw;
+    width: 25vw;
+}
+.modal{
+    display: none;
+}
+.close{
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+.close > img{
+    width: 45px;
+    height: 45px;
+}
